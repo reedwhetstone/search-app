@@ -1,0 +1,26 @@
+/** @format */
+
+.contact-search-box {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 45vw;
+  line-height: 30px;
+  border-radius: 0.5em;
+  background-color: rgb(18, 16, 24);
+  color: rgb(194, 194, 194);
+  box-shadow: 2px 2px 0px rgb(71, 63, 94);
+  transform: translateZ(0);
+  transition: all 0.25s ease-out;
+}
+
+.contact-search-box:hover {
+  transform: scale(1.05);
+  box-shadow: none;
+}
+
+.contact-search-box:focus {
+  transform: scale(1.05);
+  box-shadow: none;
+}

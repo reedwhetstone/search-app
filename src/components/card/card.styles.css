@@ -1,0 +1,27 @@
+/** @format */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+  background-color: rgb(105, 127, 151);
+  padding: 2em;
+  color: rgb(57, 70, 83);
+  cursor: pointer;
+  backface-visibility: hidden;
+  box-shadow: 2px 2px 0px rgb(71, 63, 94);
+  transform: translateZ(0);
+  transition: all 0.25s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: none;
+}
+
+.card img {
+  max-width: 300px;
+  min-width: none;
+  border-radius: 50%;
+  background-color: rgb(57, 70, 83);
+}
